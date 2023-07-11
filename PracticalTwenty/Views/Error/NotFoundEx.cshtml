@@ -1,0 +1,28 @@
+﻿﻿
+@{
+	Layout = null;
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<style>
+	.custom{
+	margin: auto;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	transform: translate(0, 30%);
+	}
+</style>
+
+<div class="d-flex justify-content-center custom">	
+	<div class="vertical-center">
+		<div class="container">
+			<div id="notfound" class="text-center ">
+				<h1>😮</h1>
+				<h2>Oops! Page Not Be Found</h2>
+				<p>Sorry but the page you are looking for does not exist.</p>
+				<a asp-controller="Student" asp-action="Index" class="btn btn-outline-primary">Back to Student</a>
+			</div>
+		</div>
+	</div>
+</div>
